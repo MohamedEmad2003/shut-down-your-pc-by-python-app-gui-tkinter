@@ -25,46 +25,4 @@ a = StringVar()
 entry = Entry(master=frame,textvariable=a).place(relx=0.55,rely=0.300,height=25,width=120)
 err = Label(master=root,text='Put Time in minutes :',font=("TKFixedFont 10 bold"),bg='#37d3ff').place(relx=0.25,rely=0.300)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 root.mainloop()
